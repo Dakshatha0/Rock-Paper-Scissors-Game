@@ -16,5 +16,6 @@ Team Size: 02
 
 
 
-Team members: K.S.A.Dakshatha<br />
-              T.Chandana
+Team members:<br />
+K.S.A.Dakshatha<br />
+T.Chandana
