@@ -22,42 +22,44 @@ img{
 }
 #your-title{
     position: relative;
-    bottom: -430px;
-    left: 1300px;
+    bottom: -350px;
+    left: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 10px;
-    font-size: 30px;
+    font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: rgb(19, 62, 216);
+    color: rgb(242, 243, 246);
     text-align: left;
-    position: relative;left: 1100px;top: 300px;
+    position: relative;left: 1200px;bottom:-500px;
 }
 #opponent-title{
     position: relative;
-    bottom: -280px;
+    bottom: -480px;left: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 10px;
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 5px;
     text-transform: uppercase;
-    color: rgb(19, 62, 216);
+    color: rgb(247, 248, 249);
     text-align: left;
   
 }
 #opponent-score{
     position: relative;
-    bottom: -300px;
-    left: 150px;
+    bottom: -500px;
+    left: 170px;
     border: 1px;
     font-size: 20px;
+    color: aliceblue;
 }
 #your-score{
     position: relative;
-    bottom: -120px;
+    bottom: -210px;
     border: 1px;
-    left: 1030px;
+    left: 1270px;
     font-size: 20px;
+    color: aliceblue;
 }
 #opponent-choice {
     width: 240px;
@@ -68,7 +70,7 @@ img{
     border-radius: 8px;
     max-width: fit-content;
     height: auto;
-    position: relative;left: 80px;top: -50px;
+    position: relative;left: 80px;top: -40px;
 }
 
 #your-choice{
@@ -80,7 +82,7 @@ img{
     border-radius: 8px;
     max-width: fit-content;
     height: auto;
-    position: relative;right: 150px;top: -77px;
+    position: relative;right: 100px;top: -57px;
 }
 
 #choices {
@@ -90,23 +92,37 @@ img{
     margin: 0 auto;
     margin-top: 10px;
     cursor: pointer;
-    position: relative;top: 400px;
+    position: relative;top: 400px;left: -50px;
     align-items: center;
+    display: flex;
 }
-
+.choices{
+    padding: 50px;
+    background-color: linear-gradient(to right, rgb(0, 179, 255), rgb(255, 0, 0));
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.choices:hover{
+    transform: scale(1.5);
+}
 #choices img {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     cursor: pointer;
     position: relative;
-    top: -10px;
+    top: -100px;
+    border: 2px dashed #000;
 }
+
 footer{
     position: relative;
-    top: 170px;
+    top: 20px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    position: fixed;
-    font-size: 17px;
-    padding-top: 360px;
+    position: fixed;left: 420px ;top: 150px;
+    font-size: 5px;
+    padding-top: 200px;
+    color: beige;
 }
